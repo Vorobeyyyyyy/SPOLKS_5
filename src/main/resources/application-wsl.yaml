@@ -1,0 +1,5 @@
+app:
+  device-address: 192.168.125.141
+  next-hop-mac-address: 00:15:5d:f2:04:e1
+
+  chat-name: WSL

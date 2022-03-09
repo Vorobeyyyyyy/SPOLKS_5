@@ -1,0 +1,33 @@
+logging:
+  level:
+    org:
+      pcap4j: WARN
+app:
+  task: multicast_chat
+#  device-address: 192.168.72.58
+  device-address: 192.168.112.1
+#  device-address: 192.168.31.228
+
+#  WSL
+  next-hop-mac-address: 00:15:5d:f5:fd:60
+
+#  MiWifi
+#  next-hop-mac-address: 50:d2:f5:07:f1:9c
+
+#  AP
+#  next-hop-mac-address: 32:c1:1d:2e:e2:5b
+
+  ping-addresses: google.com,vk.com
+  ping-ttl: 64
+  ping-repeat-count: 100
+
+  traceroute-address: google.com
+  traceroute-max-hops: 30
+
+  chat-message-prefix: hello_world
+  chat-name: Alex
+  chat-broadcast-address: 192.168.127.255
+  chat-multicast-address: 224.0.23.174
+
+
+#  ping-addresses: 192.168.117.62
